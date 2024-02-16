@@ -1,0 +1,19 @@
+{
+    "name": "purwanto/php-composer-library",
+    "description": "belajr composer library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Purwanto\\PhpComposerLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "muhammadpurwanto",
+            "email": "muhammadpoerr55@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    }
+}
